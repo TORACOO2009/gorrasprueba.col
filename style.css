@@ -1,0 +1,138 @@
+/* Estilos para el encabezado */
+header {
+    background-image: linear-gradient(to bottom right, #ffbb00, #ff6e00, #00287a, #000000);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  body{
+    font-family: Arial, sans-serif;
+   
+    background-image: linear-gradient(to bottom,rgb(110, 77, 46), #d8b7b7);
+border-radius: 40px;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilos para el menú de navegación */
+  nav {
+    background-color: #f86808;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #00287a;
+  }
+  
+  /* Estilos para los productos */
+  main {
+    background-color: #fff;
+    padding: 2rem;
+  }
+  
+  h2 {
+    color: #00287a;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border: 2px solid #00287a;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .producto img {
+    max-width: 40%;
+    margin-right: 2rem;
+  }
+  
+  .producto h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #00287a;
+  }
+  
+  .producto p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .producto button {
+    background-color: #00287a;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .producto button:hover {
+    background-color: #ffbb00;
+    color: #00287a;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #00287a;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  a{
+   
+    display: block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: #024383;
+    border-radius: 40px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    color: #f7f6f6;
+    text-decoration: none;
+    
+    
+
+
+}
+a:hover{
+  background-color: #333;
+  border: 2px solid rebeccapurple;
+  color: yellow;
+  
+
+
+}
+  
+  footer p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
